@@ -1,0 +1,123 @@
+Справочная документация пользователя системы учета посещаемости
+
+Добро пожаловать в программу Attendance System! Эта программа предоставляет графический интерфейс пользователя (GUI) для управления записями посещаемости. Эта документация подскажет вам, как эффективно использовать программу.
+Интерфейс программы
+
+После запуска программы вы увидите графический интерфейс пользователя Attendance System. Графический интерфейс разделен на две основные части: левую и правую панели.
+
+Левая панель используется для ввода и управления информацией о студентах. Она состоит из различных полей и кнопок:
+
+    ID Студента: Введите ID студента в это поле.
+    Имя студента: Введите имя студента в это поле.
+    Напрвление: Введите в это поле курс или программу студента.
+    Отделение: Введите в это поле факультет студента.
+    Дата: Введите дату посещения в этом поле.
+    Время: Введите время посещения в этом поле.
+    Статус: Выберите статус посещаемости из выпадающего списка.
+    Импорт CSV: Нажмите эту кнопку, чтобы импортировать данные ученика из файла CSV.
+    Экпорт CSV: Нажмите эту кнопку, чтобы экспортировать данные ученика в CSV-файл.
+    Перезагрузить: Нажмите эту кнопку, чтобы сбросить введенные данные.
+
+На правой панели отображается таблица, в которой показаны существующие записи о посещаемости. Вы можете просматривать и выбирать записи из этой таблицы.
+Импорт и экспорт данных
+
+Чтобы импортировать данные о студентах из файла CSV:
+
+    Нажмите кнопку "Импорт CSV".
+    Выберите CSV-файл, содержащий данные ученика, и нажмите кнопку "Открыть".
+    Импортированные данные будут отображены в таблице на правой панели.
+
+Чтобы экспортировать данные студентов в CSV-файл:
+
+    Нажмите кнопку "Экспорт CSV".
+    Выберите местоположение и укажите имя экспортируемого CSV-файла.
+    Нажмите кнопку "Сохранить", чтобы экспортировать данные.
+    Появится сообщение об успехе или неудаче процесса экспорта.
+
+Управление записями посещаемости
+
+Для просмотра и управления записями посещаемости:
+
+    Нажмите на строку в таблице на правой панели, чтобы выбрать запись.
+    Информация о выбранной записи будет отображена в полях на левой панели.
+    Вы можете изменить информацию о студенте или статус посещаемости в соответствующих полях.
+    Чтобы обновить запись, внесите необходимые изменения и нажмите кнопку "Обновить".
+    Чтобы удалить запись, выделите ее и нажмите кнопку "Удалить".
+
+Сброс данных
+
+Чтобы очистить введенные данные и сбросить поля:
+
+    Нажмите кнопку "Перезагрузить".
+    Все поля будут очищены, а для выпадающего списка статуса будет установлено значение по умолчанию.
+
+Устранение неполадок
+
+Если в процессе работы с программой у вас возникнут какие-либо проблемы или ошибки, появится окно сообщения с соответствующей информацией, которая поможет вам устранить проблему.
+
+Вот и все! Теперь вы готовы к работе с программой Attendance System. Наслаждайтесь эффективным ведением учета посещаемости с помощью этого приложения с графическим интерфейсом.
+
+
+
+
+Attendance System User Help Documentation
+
+Welcome to the Attendance System program! This program provides a graphical user interface (GUI) for managing attendance records. This documentation will guide you on how to use the program effectively.
+Program Interface
+
+Upon launching the program, you will see the Attendance System GUI. The GUI is divided into two main sections: the left panel and the right panel.
+
+The left panel is used for entering and managing student information. It consists of various fields and buttons:
+
+    ID Студента: Enter the student's ID in this field.
+    Имя студента: Enter the student's name in this field.
+    Напрвление: Enter the student's course or program in this field.
+    Отделение: Enter the student's department in this field.
+    Дата: Enter the attendance date in this field.
+    Время: Enter the attendance time in this field.
+    Статус: Select the attendance status from the dropdown list.
+    Импорт CSV: Click this button to import student data from a CSV file.
+    Экпорт CSV: Click this button to export student data to a CSV file.
+    Перезагрузить: Click this button to reset the entered data.
+
+The right panel displays a table that shows the existing attendance records. You can view and select records from this table.
+Importing and Exporting Data
+
+To import student data from a CSV file:
+
+    Click the "Импорт CSV" button.
+    Choose the CSV file containing the student data and click "Open".
+    The imported data will be displayed in the table on the right panel.
+
+To export student data to a CSV file:
+
+    Click the "Экпорт CSV" button.
+    Choose the location and provide a name for the exported CSV file.
+    Click "Save" to export the data.
+    A message will appear indicating the success or failure of the export process.
+
+Managing Attendance Records
+
+To view and manage attendance records:
+
+    Click on a row in the table on the right panel to select a record.
+    The selected record's details will be displayed in the fields on the left panel.
+    You can modify the student's information or attendance status in the respective fields.
+    To update the record, make the necessary changes and click the "Обновить" button.
+    To delete a record, select it and click the "Удалить" button.
+
+Resetting Data
+
+To clear the entered data and reset the fields:
+
+    Click the "Перезагрузить" button.
+    All the fields will be cleared, and the status dropdown will be set to the default value.
+
+Troubleshooting
+
+If you encounter any issues or errors while using the program, a message box will appear with relevant information to assist you in troubleshooting the problem.
+
+That's it! You are now ready to use the Attendance System program. Enjoy managing attendance records efficiently with this GUI-based application.
+
+
+
