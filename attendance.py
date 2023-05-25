@@ -10,7 +10,7 @@ my_data=[]
 
 class Attendace:
     def __init__(self, root):
-        super().__init__(root)
+        
         self.root=root
         self.root.geometry("1530x790+0+0")
         self.root.title("Attendace system")
