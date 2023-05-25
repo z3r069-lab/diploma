@@ -237,7 +237,7 @@ class Student:
     
     def search_data(self):
         try:
-            conn=mysql.connector.connect(host="localhost",port="3308",username="root",password="007366707",database="students")
+            conn=mysql.connector.connect(host="192.168.0.10",port="3308",username="diploma_admin",password="root",database="students")
             my_cursor=conn.cursor()
             my_cursor.execute("select * from students order by %s",(
                 self.var_sort.get(),               
