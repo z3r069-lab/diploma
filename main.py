@@ -85,7 +85,6 @@ class Face_recognition_system:
           
         
     def open_attendance(self):
-        
         path = "attendance.py"
         subprocess.run(["python",path])
         
