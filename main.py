@@ -1,4 +1,5 @@
 import tkinter as tk
+import subprocess
 from tkinter import ttk
 from student import Student
 from attendance import Attendace
@@ -77,18 +78,16 @@ class Face_recognition_system:
     
     
     def student_details(self):
+        path = "student.py"
+        subprocess.run(["python",path])
         
-        
-        new_window = tk.Toplevel(self.root)
-        student_window = Student(new_window)
         
           
         
     def open_attendance(self):
+        path = "attendance.py"
+        subprocess.run(["python",path])
         
-        new_window=tk.Toplevel(self.root)
-        attend = Attendace(new_window)
-        #new_window.title("Student Details")
                 
         
     
