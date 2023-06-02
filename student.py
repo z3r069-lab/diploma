@@ -437,7 +437,7 @@ class Student:
                     ))
                 conn.commit()
                 self.fetch_data()
-                #self.reset_data()
+                self.reset_data()
                 conn.close()  
                 
                 #==================   load predefined data on face frontals ========================
