@@ -1,8 +1,6 @@
 import tkinter as tk
 import subprocess
 from tkinter import ttk
-from student import Student
-from attendance import Attendace
 import os
 from datetime import datetime
 import mysql.connector
