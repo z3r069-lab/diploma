@@ -283,7 +283,7 @@ class Student:
             
         else:
             try:
-                conn=mysql.connector.connect(host="localhost",port="3308",username="root",password="007366707",database="students")
+                conn=mysql.connector.connect(host="192.168.0.10",port="3308",username="diploma_admin",password="root",database="students")
                 my_cursor=conn.cursor()
                 my_cursor.execute("insert into students values(%s,%s,%s,%s,%s,%s,%s,%s,%s)",(
                     self.var_ID.get(),
@@ -305,7 +305,7 @@ class Student:
 
 
     def fetch_data(self):
-        conn=mysql.connector.connect(host="localhost",port="3308",username="root",password="007366707",database="students")
+        conn=mysql.connector.connect(host="192.168.0.10",port="3308",username="diploma_admin",password="root",database="students")
         my_cursor=conn.cursor()
         my_cursor.execute("select * from students")
         data = my_cursor.fetchall()
@@ -340,7 +340,7 @@ class Student:
             try:
                 Update=messagebox.askyesno("Update","Хотите обновить данные?",parent=self.root)
                 if Update>0:
-                    conn=mysql.connector.connect(host="localhost",port="3308",username="root",password="007366707",database="students")
+                    conn=mysql.connector.connect(host="192.168.0.10",port="3308",username="diploma_admin",password="root",database="students")
                     my_cursor=conn.cursor()
                     my_cursor.execute("update students set name=%s,email=%s,phone=%s,Dep=%s,Course=%s,`Year`=%s,`Group`=%s,photo=%s where Id=%s" ,(
                         
@@ -371,7 +371,7 @@ class Student:
             try:
                 Delete=messagebox.askyesno("Delete","Удалить данные?",parent=self.root)
                 if Delete >0:
-                    conn=mysql.connector.connect(host="localhost",port="3308",username="root",password="007366707",database="students")
+                    conn=mysql.connector.connect(host="192.168.0.10",port="3308",username="diploma_admin",password="root",database="students")
                     my_cursor=conn.cursor()
                     sql = "delete from students where id=%s"
                     var = (self.var_ID.get(),)
@@ -416,7 +416,7 @@ class Student:
             messagebox.showerror("Error","Все поля должны быть заполнены",parent=self.root)
         else:
             try:
-                conn=mysql.connector.connect(host="localhost",port="3308",username="root",password="007366707",database="students")
+                conn=mysql.connector.connect(host="192.168.0.10",port="3308",username="diploma_admin",password="root",database="students")
                 my_cursor=conn.cursor()
                 my_cursor.execute("select * from students")
                 my_result=my_cursor.fetchall()
